@@ -1,0 +1,15 @@
+<div class="row text-center mb-10">  
+    <div *ngFor='let p of allProducts'>
+        <div class="col-lg-3 col-md-3 col-12" >
+          <div class="card text-center" style="width: 18rem; margin: 10px 7px 5px 7px;">
+              <img src={{p.photo}} class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{p.name}}</h5>
+                <p class="card-text">₹ {{p.price}}</p>
+                
+                <input type='button' name='{{p.name}}' (click)="OnAddCart(p,add)" class="btn btn-primary" #add value='Add to Cart'>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>

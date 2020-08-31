@@ -1,0 +1,7 @@
+[{"id":1,"name":"Samsung","price":4000,"photo":"./images/samsung.jpg"},
+    {"id":2,"name":"Acer","price":5000,"photo":"./images/acer.jpg"},
+    {"id":3,"name":"Apple","price":6000,"photo":"./images/apple.jpg"},
+    {"id":4,"name":"Asus","price":7000,"photo":"./images/asus.jpg"},
+    {"id":5,"name":"Avita","price":8000,"photo":"./images/avita.jpg"},
+    {"id":6,"name":"Dell","price":9000,"photo":"./images/dell.jpg"},
+    {"id":7,"name":"Hp","price":3000,"photo":"./images/hp.jpg"}] 
